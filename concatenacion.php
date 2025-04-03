@@ -13,4 +13,7 @@ No se interpretan variables ni caracteres especiales.
 comillas dobles:Comillas dobles ("): 
 Se usan cuando quieres que PHP lea las variables
  dentro de la cadena y las reemplace con su valor real. 
-También permite ciertos caracteres especiales como saltos de línea
+También permite ciertos caracteres especiales como saltos de línea.
+
+
+
