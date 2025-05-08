@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Conversosr de pesos Uruguayos (UYU)</h2>
+    <form action="conversorAmliado.php" method="post">
+        <label for="cantidad">Cantidad en UYU:</label>
+        <input type="number" name="cantidad" id="cantidad" step="0.01" required>
+
+
+        <label for="moneda">Convertir a:</label>
+        <select name="moneda" id="moneda" required>
+            <option value="USD">Dolares (USD)</option>
+            <option value="EUR">Euros (EUR)</option>
+            <option value="BRL">REales (BRL)</option>
+            </select>
+
+
+            <br><br>
+            <input type="submit" value="convertir">
+    </form> 
+</body>
+</html>
